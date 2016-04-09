@@ -9,16 +9,25 @@
 
     In local mode  args passed in IDE -
     
-    example- 
+    example
+    ```
+   
     <Topo-mode>   <topo name>   <input CSV file path>    <datatype-ExperimentID>  <rate>   <output log file path>
+    
     L   IdentityTopology   /Users/anshushukla/Downloads/Incomplete/stream/PStormScheduler/src/test/java/operation/output/eventDist.csv     PLUG-210  1.0   /Users/anshushukla/data/output/temp
+    ```
+  
   
    In global mode args passed - 
    
    example-
+   ```
+   
    <storm command>  jar  <jar file path>   <class path>   <Topo-mode>   <toponame>  <csv data path >  <PLUG-expid>  <rate>  <log file path>
     
    storm jar $stormJarpath  in.dream_lab.bm.uidai.auth.topology.$i  C  $i  $plugdatapath   PLUG-$expNum   1.0     $outputpath
+   
+   ```
    
    
 - Limitations 
