@@ -1,7 +1,7 @@
 # PStormScheduler
 
 - Project includes special spout that reads events from CSV file as rows  for emitting using timestamp column in input CSV file 
-
+ [SampleSpout in samples folder]
 - Takes arguments as the X-factor (0.5x,3x) to increase or dicrease the input rate in spout using same CSV file as input 
   (0.5 as arg to double the rate)
 
