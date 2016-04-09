@@ -12,7 +12,7 @@
     example
     ```
    
-    <Topo-mode>   <topo name>   <input CSV file path>    <datatype-ExperimentID>  <rate>   <output log file path>
+    <Topo-mode L-local,C-cluster>   <topo name>   <input CSV file path>    <datatype-ExperimentID>  <rate>   <output log file path>
     
     L   IdentityTopology   /Users/anshushukla/Downloads/Incomplete/stream/PStormScheduler/src/test/java/operation/output/eventDist.csv     PLUG-210  1.0   /Users/anshushukla/data/output/temp
     ```
